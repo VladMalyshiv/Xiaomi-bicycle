@@ -1,0 +1,14 @@
+$(function(){
+    $('.bike-slider').slick({
+        adaptiveHeight:true,
+        arrows:false,
+        dots:true,
+    });
+    $('.slider__bot-inner').slick({
+        adaptiveHeight:true,
+        arrows:false,
+        dots:true,
+        autoplay:true,
+        fade:true,
+    });
+});
